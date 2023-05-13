@@ -32,10 +32,6 @@ impl CsvReader {
         }
     }
 
-    pub fn headers(&self) -> &StringRecord {
-        &self.headers
-    }
-
     pub fn records(&self) -> Vec<HashMap<String, String>> {
         self.records.iter().map(|record| {
             let mut hashmap = HashMap::new();

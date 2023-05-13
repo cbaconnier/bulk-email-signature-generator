@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 use tinytemplate::TinyTemplate;
 
-use serde::{Deserialize, Serialize};
+use serde::{Serialize};
 
 pub struct HtmlGenerator {
     records: Vec<HashMap<String, String>>,
