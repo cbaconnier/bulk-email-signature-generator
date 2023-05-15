@@ -1,7 +1,6 @@
 mod csv_reader;
 mod html_generator;
 
-
 const VERSION: &str = env!("CARGO_PKG_VERSION");
 
 fn prog() -> Option<String> {

@@ -126,4 +126,3 @@ mod tests {
         CsvReader::new(file_path.to_str().unwrap().to_owned());
     }
 }
-
