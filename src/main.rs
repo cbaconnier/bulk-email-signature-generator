@@ -1,6 +1,7 @@
 mod csv_reader;
 mod html_generator;
 
+
 const VERSION: &str = env!("CARGO_PKG_VERSION");
 
 fn prog() -> Option<String> {
@@ -9,10 +10,11 @@ fn prog() -> Option<String> {
 
 fn help() {
     println!("Usage: {} [OPTION]... [FILE]...", prog().unwrap_or_default());
-    println!("Generate a contact list from a CSV file.");
+    println!("Generate HTML Signatures from a CSV file.");
     println!();
     println!("  -f, --csv FILE");
     println!("  -t, --template FILE");
+    println!("  -o, --output DIR");
     println!("  -h, --help");
     println!("      --version");
     println!("  -q, --quiet");
