@@ -1,3 +1,5 @@
+![Rust](https://github.com/cbaconnier/bulk-email-signature-generator/workflows/Rust/badge.svg?branch=main)
+
 # Bulk email signature generator
 
 Bulk email signature generator is a tool to generate your HTML signatures from your CSV file and a HTML template file.
@@ -14,14 +16,16 @@ cargo build
 
 ## Test
 
-_Needs to be implemented_
+```
+cargo test
+```
 
 ## CSV
 
 The CSV file must contains the column `file_name` in order to generate the HTML files.  
 You can use any columns you want. 
 
-See [contacts.csv](./contacts.csv)
+See [contacts.csv](input_example/contacts.csv)
 
 By default the file must be named `contacts.csv`.  
 To use a different file name use `bulk-email-signature-generator --csv my_file.csv`
@@ -39,7 +43,7 @@ You can use conditionnal statement in your HTML template
 {{- endif -}}
 ```
 
-See [template.html](./template.html)
+See [template.html](input_example/template.html)
 
 More info on [TinyTemplate](https://github.com/bheisler/TinyTemplate)
 

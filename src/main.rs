@@ -9,10 +9,11 @@ fn prog() -> Option<String> {
 
 fn help() {
     println!("Usage: {} [OPTION]... [FILE]...", prog().unwrap_or_default());
-    println!("Generate a contact list from a CSV file.");
+    println!("Generate email signatures in HTML from a CSV file.");
     println!();
     println!("  -f, --csv FILE");
     println!("  -t, --template FILE");
+    println!("  -o, --output DIR");
     println!("  -h, --help");
     println!("      --version");
     println!("  -q, --quiet");
