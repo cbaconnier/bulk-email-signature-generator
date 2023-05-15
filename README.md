@@ -1,3 +1,5 @@
+![Rust](https://github.com/cbaconnier/bulk-email-signature-generator/workflows/Rust/badge.svg?branch=main)
+
 # Bulk email signature generator
 
 Bulk email signature generator is a tool to generate your HTML signatures from your CSV file and a HTML template file.
