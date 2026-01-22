@@ -1,4 +1,4 @@
-file_name,nom,email,phone
+file_name,name,email,phone
 john_doe,"John Doe",john@example.org,555-555-5555
 jane_doe.html,"Jane Doe",jane@example.org,
 john_smith,"John Smith",,555-555-5555
