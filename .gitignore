@@ -1,4 +1,5 @@
-/target
-/output
+target
+output
 .idea
+local
 Cargo.lock
