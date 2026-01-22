@@ -54,7 +54,7 @@ To generate the HTML signature files you can use
 ```
 cargo run
 
-cargo run -- --csv "my_file.csv" --template "my_template.html" --output "my_folder"
+cargo run -- --csv "input_example/contacts.csv" --template "input_example/template.html" --output "output_example"
 ```
 
 ## License
